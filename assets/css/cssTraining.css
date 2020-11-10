@@ -1,0 +1,27 @@
+#boxone {
+    width: 100%;
+    height: 500px;
+    background-image: url(../images/boxer.jpg);
+ }
+ #boxtwo { 
+    width: 100%;
+    height: 500px;
+     background-image: url(../images/sushi-1.jpg);}
+ #boxthree { 
+    width: 100%;
+    height: 500px;
+     background-image: url(../images/mountain.jpg);
+    }
+ #boxfour {
+    width: 100%;
+    height: 500px;
+     background-image: url(../images/beach.jpg);}
+
+     span {
+         color: darkseagreen;
+         background-color: darkslategray;
+         font-size: 40px;
+     }
+     #boxone span {background-color: goldenrod;
+    font-size: 60px;}
+    

@@ -1,0 +1,14 @@
+h1 {
+        color: darkgoldenrod;
+    }
+    p {color: cadetblue;
+    }
+.pinktext { color: darkcyan;
+}
+#pinktext {color: indianred;}
+
+#firstbox {
+    width: 200px;
+    height: 100px;
+    background-color: lavender;
+}
