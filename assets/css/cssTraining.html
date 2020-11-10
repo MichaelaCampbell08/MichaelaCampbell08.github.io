@@ -5,6 +5,9 @@
 <meta name="viewport" content="width=device-width, initial-scale=1"> 
 <title>Portfolio Page</title>
 <link ref="stylesheet" type="text/css" href="assets/css/cssTraining.css">
+<!-- bootstrap stylesheet -->
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
 </head>
 
 
@@ -34,6 +37,48 @@
      #boxone span {background-color: rgb(10, 83, 77);
     font-size: 60px;}
     
+    .underline {text-decoration: underline;}
+
+    #footer {background-color: lavender;
+    height: 50px; }
+   
+    a.customlink {
+        text-decoration: none;
+        margin-top: 20px;
+        margin-bottom: 10px;
+        margin-left: 5px;
+        margin-right: 5px;
+    }
+    div.flexContainer { display: flex;
+    background-color: indianred;
+justify-content: space-evenly;
+align-items: center;}
+
+    div.flexContainer > div {
+        background-color: darkolivegreen;
+        width: 200px;
+        height: 200px;
+        margin: 10px 20px;
+        padding:20px;
+    }
+a {
+    color: chartreuse;
+    text-decoration: underline;   
+}
+a:visited { 
+    color: crimson;
+text-decoration: underline;
+}
+
+a:hover {
+    background-color: darkgreen;
+    color: floralwhite;
+    text-decoration: none;
+}
+a:active {
+     background-color: crimson;
+color: floralwhite;
+}
 </style>
 
 
@@ -41,6 +86,15 @@
 
 
 <body>
+    <div id="firstdiv">
+        <span><a class="visitedlink" href="index.html">boxers image</a></span>
+    </div>
+    <div id="sedonddiv">
+        <span>mountain image</span>
+    </div>
+    <div id="thirddiv">
+        <h><span>beach image</span></h>
+    </div>
 <div id="boxone">
    <span>boxer</span>
     </div>
@@ -55,6 +109,50 @@
 
     <div id="boxfour">
        <span>beach</span>
+       <h1>go to the beach</h1>
     </div>
+
+    <section>
+        <div id="maincontent">
+            <h1>HELLO</h1>
+            <p class="pinktext">this is our main content</p>
+        </div>
+    </section>
+    <section>
+        <div id="leftbox">
+            <img width="200" height="200" src="assets/images/camping.jpg"/>
+            <h1>Image 1</h1>
+            <p class="pinktext underline">this is the left image</p>
+        </div>
+        <div id="middlebox">
+            <img width="200" height="200" src="assets/images/travel.jpg"/>
+            <h1 class="underline">Image 1</h1>
+            <p>this is the midddle image</p>
+        </div>
+        <div id="rightbox">
+            <p>this is some text</p>
+        </div>
+    </section>
+    <div class="flexContainer">
+        <div>1</div>
+        <div>2</div>
+        <div>3</div>
+        <div>4</div>
+        <h1>helllo</h1>
+    </div>
+
+    <a href="https://www.instagram.com/mmc_design_/" target="_blank">click here to go to my instagram</a>
+    <div id="footer">
+        <p>this is a footer</p>
+    </div>
+
 </body>
+<!-- boostrap script -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+    integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous">
+</script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
+    integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous">
+</script>
 </html>

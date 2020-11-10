@@ -12,3 +12,8 @@ h1 {
     height: 100px;
     background-color: lavender;
 }
+#secondbox { width: 500px;
+    height:500px;
+    background-color: lavenderblush;}
+.shadowtext {
+    text-shadow: 5px 5px 10px red; }
