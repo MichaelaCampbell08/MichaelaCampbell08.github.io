@@ -6,20 +6,147 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Portfolio Page</title>
+    <link ref="stylesheet" type="text/css" href="assets/css/homePage.css">
+   
+    <!-- local stylesheets -->
+    <link rel="stylesheet" href="assets/css/homePage.css" type="text/css" />
+    <link rel="stylesheet" href="assets/css/defaultStyle.css" type="text/css" />
+    
+    <!-- bootstrap stylesheet -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+        integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
 </head>
+<style>
+    body {
+        background-image: url(assets/images/background.jpg);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+h1 {
+    color: darkgoldenrod;
+}
+h2 { text-align: center;}
+
+p {color: cadetblue; 
+}
+.pinktext { color: darkcyan;
+}
+#pinktext {color: indianred;}
+
+#firstbox {
+width: 200px;
+height: 100px;
+background-color: lavender;}
+
+#secondbox { width: 500px;
+height:500px;
+background-color: lavenderblush;
+box-shadow: 10px 50px 10px rgba(50, 0, 0, 0.5);}
+
+#thirdbox {
+    width: 300px;
+    height: 300px;
+    background-color:darkmagenta;
+    margin: -100px;
+    background-image: radial-gradient(yellow,purple,orange); 
+}
+
+.shadowtext {
+    text-shadow: 5px 5px 10px red; }
+
+
+
+</style>
 
 
 <body>
-    <h1>This will be my future portfolio website</h1>
-    <p>there will more projects display here really soon!!!</p>
-    <h3 align="left">Hello</h3>
-    <p align="center">My name is Michaela</p>
+    <!-- bs navigation-->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+    
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav mr-auto">
+          <li class="nav-item">
+            <img width="auto" height="40px" src="assets/images/mmclogo copy.png">
+          </li>
+          <li class="nav-item active">
+            <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
+          </li>
+          
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              Projects
+            </a>
+            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+              <a class="dropdown-item" href="resume.html">Resume</a>
+              <a class="dropdown-item" href="cssTraining.html">css Training</a>
+              <div class="dropdown-divider"></div>
+              <a class="dropdown-item" href="bootstrapExercise.html">Bootstrap Exercise</a>
+            </div>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
+          </li>
+        </ul>
+        <form class="form-inline my-2 my-lg-0">
+          <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+          <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+        </form>
+      </div>
+    </nav>
+
+
+
+    <h1 id="pinktext">This will be my future portfolio website</h1>
+    <p class="pinktext" >there will more projects display here really soon!!!</p>
+    <h3 class="pinktext" >Hello</h3>
+    <h6 id="pinktext">My name is Michaela</h6>
     <a href="www.nike.com" target="_blank">
         <h5>go to Nike website</h5></a>
       <a href="mailto:michaelamae8@gmail.com">
       <p>email me</p>
     </a>
+    <h1>To do List</h1>
+    <ol type="A">
+        <li>cook</li>
+        <li>buy milk</li>
+        <li>walk the dog</li>
+    </ol>
+    <ul> 
+        <li><mark>cook</mark></li>
+        <li>buy milk</li>
+        <li>walk the dog</li>
+    </ul>
+    <img width="auto" height="200" src="assets/images/download.jpg">
+<h1>Student Bio</h1>
+<h3>Michaela Campbell</h3>
+<img width="auto" height="100" style="border-radius:50%;" src="assets/images/download.jpg">
+<p>I am a graphic designer</p>
+<h4>contact info</h4>
+
+<div id="firstbox">
+<h2>first div box</h2>
+</div>
+
+<div id="secondbox">
+    <p>this is my second box</p>
+    <h1 class="shadowtext"></h1>hello</h1>
+</div>
+<div id="thirdbox">
+    <p>this is my third box</p>
+</div>
 </body>
-
+<!-- boostrap script -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+    integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous">
+</script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
+    integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous">
+</script>
 
 </html>

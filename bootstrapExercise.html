@@ -1,0 +1,275 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1"> 
+<title>bootsreap Exercise</title>
+
+<!-- custom css-->
+<link rel="stylesheet" type="type/css" href="assets/css/bootstrapExercise.css">
+<!-- Bootstrap stylesheet-->
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+</head>
+<style>
+.veggietext {
+    background-color: indianred;
+    color: lightblue;
+    padding: 20px;
+}
+.ricetext {
+    background-color: lightgreen;
+    color: maroon;
+    padding: 10px 20px;
+}
+.container-fluid.bearBentoBox {
+    padding-left: 0!important;
+    padding-right: 0!important;
+}
+
+.bearBentoBox .col-md-4 p { 
+    background: darkorange;
+    color: rgb(255, 255, 255);
+}
+
+.bearBentoBox .col-md-8 p { 
+    background: indigo;
+    color: lightpink;
+}
+.saladRow {
+    background-color: mediumseagreen;
+    padding: 30px;
+}
+.saladRow p {
+    padding: 5px;
+    color: mistyrose;
+}
+.regBento {
+    background-color: paleturquoise;
+    padding: 10px;
+    
+}
+
+/* bootstrap vertical alignment */
+.gridExercise {
+    background-color: purple;
+    margin: 30px 0;
+    margin-top: 10px;
+    margin-bottom: 30px;
+    margin-left: 0;
+    margin-right: 0;
+    align-items: center;
+}
+.parentTarget 
+{
+    height: 200px;
+    background-color: skyblue;
+    margin: 10px;
+}
+.parentTarget div {
+    height: 50px;
+    background-color: slateblue;
+    border-width: 1px;
+    border-color: springgreen;
+    border-style: solid;
+}
+.gridExercise .height100 {
+    height: 100px;
+    background-color: tomato;
+    border: 1px solid blueviolet;
+}
+.height100 {
+    height: 50px;
+    background-color: chartreuse;
+    border-color: darkcyan;
+}
+.extra {
+    height: 100px;
+    background-color: darkgoldenrod;
+}
+.first div {
+    height: 100px;
+    background-color: darkgreen;
+}
+.second div {
+    height: 100px;
+    background-color: darkorchid;
+}
+
+</style>
+
+<body>
+    <!-- bs navigation-->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+      
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav mr-auto">
+            <li class="nav-item">
+              <img width="auto" height="40px" src="assets/images/mmclogo copy.png">
+            </li>
+            <li class="nav-item active">
+              <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
+            </li>
+            
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                Projects
+              </a>
+              <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <a class="dropdown-item" href="resume.html">Resume</a>
+                <a class="dropdown-item" href="cssTraining.html">css Training</a>
+                <div class="dropdown-divider"></div>
+                <a class="dropdown-item" href="bootstrapExercise.html">Bootstrap Exercise</a>
+              </div>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
+            </li>
+          </ul>
+          <form class="form-inline my-2 my-lg-0">
+            <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+            <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+          </form>
+        </div>
+      </nav>
+      
+<div class="container-fluid bearBentoBox">
+    <div class="row">
+        <div class="col-md-4 col-lg-6">
+<p>veggies</p>
+        </div>
+
+        <div class="col-md-8 col-lg-6">
+<p>rice</p>
+        </div>
+    </div>
+<div class="row saladRow">
+<div class="col">
+    <div class="row">
+        <div class="col-sm-3">
+            <p>kale</p>
+        </div>
+        <div class="row">
+            <div class="col-sm-6">
+                <p>redleaf</p>
+            </div>
+        </div>
+    </div>
+    <p>lettuce</p>
+    <p>tomato</p>
+    <h1>cucumber</h1>
+</div>
+</div>
+
+
+</div>
+
+<div class="container regBento">
+    <div class="row">
+        <div class="col-md-4 col-lg-6">
+<p class="veggietext">veggies</p>
+        </div>
+
+        <div class="col-md-8 col-lg-6">
+<p class="ricetext">rice</p>
+        </div>
+    </div>
+</div>
+
+<div class="row dessertrow">
+<div class="col-sm-6 col-med-4 col-lg-9">
+    <p>cheese cake</p>
+</div>
+<div class ="col-sm-6 col-md-8 col-lg-3">
+    <p>cupcake</p>
+</div>
+</div>
+</div>
+
+<!-- bootstrap vertical alignment -->
+<div class="container gridExercise">
+<h2>Bootstrap vertical alignment</h2>
+<div class="row parentTarget">
+    <div class="col">
+first item
+    </div>
+    <div class="col">
+second item
+    </div>
+    <div class="col">
+third item
+    </div>
+
+</div>
+
+</div>
+</div>
+
+<!-- BS hz alignment-->
+<div class="container gridExercise">
+    <div class="row height100">
+        <div class="col-4 col-med-6">
+first col
+        </div>
+           
+        <div class="col-4 col-md-3">
+second col
+        </div>
+        <div class="col-4 col-md-3">
+third col
+        </div>
+            
+        </div>
+    </div>
+</div>
+
+</body>
+
+<div class="container extra">
+    <div class="row first">
+        <div class="col-sm-3">
+1
+        </div>
+    <div class="col-sm-3">
+2
+    </div>
+    <div class="col-sm-3">
+3
+    </div>
+    <div class="col-sm-3">
+4
+    </div>
+</div>
+</div>
+<div class="row second">
+<div class="col-lg-4">
+a
+</div>
+<div class="col-lg-6">
+    b
+</div>
+<div class="col-lg-2">
+   c 
+</div>
+</div>
+
+</div>
+
+
+
+
+
+</body>
+<!-- boostrap script -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+    integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous">
+</script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
+    integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous">
+</script>
+</html>
