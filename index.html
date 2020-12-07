@@ -17,45 +17,25 @@
         integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
 </head>
 <style>
-    body {
-        background-image: url(assets/images/background.jpg);
-        background-position: center;
-        background-repeat: no-repeat;
-        background-size: cover;
-    }
-h1 {
-    color: darkgoldenrod;
-}
-h2 { text-align: center;}
-
-p {color: cadetblue; 
-}
-.pinktext { color: darkcyan;
-}
-#pinktext {color: indianred;}
-
-#firstbox {
-width: 200px;
-height: 100px;
-background-color: lavender;}
-
-#secondbox { width: 500px;
-height:500px;
-background-color: lavenderblush;
-box-shadow: 10px 50px 10px rgba(50, 0, 0, 0.5);}
-
-#thirdbox {
-    width: 300px;
-    height: 300px;
-    background-color:darkmagenta;
-    margin: -100px;
-    background-image: radial-gradient(yellow,purple,orange); 
-}
-
-.shadowtext {
-    text-shadow: 5px 5px 10px red; }
-
-
+  body {background-color: rgb(230, 247, 247);}
+  div.container-fluid { padding-top: 50px;
+  padding-left: 50px;
+  padding-right: 50px;
+  padding-bottom: 100px;}
+  h1 { color: darkslategray;
+  font-family: Adequate ;
+  text-align: center;
+  padding-top: 50px;
+  padding-bottom: 20px;}
+  h4 { color: darkslategray;
+  font-family: shree devangari 714;
+  text-align: center;}
+  h5 {color: darkslategray;
+  font-family: Adequate ;
+  text-align: center;}
+  p {color: darkslategray;
+  font-family: shree devangari 714;
+  text-align: center;}
 
 </style>
 
@@ -74,22 +54,14 @@ box-shadow: 10px 50px 10px rgba(50, 0, 0, 0.5);}
             <img width="auto" height="40px" src="assets/images/mmclogo copy.png">
           </li>
           <li class="nav-item active">
-            <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
+            <a class="nav-link" href="index.html">Project Gallery <span class="sr-only">(current)</span></a>
           </li>
           
-          <li class="nav-item dropdown">
-            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-              Projects
-            </a>
-            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-              <a class="dropdown-item" href="resume.html">Resume</a>
-              <a class="dropdown-item" href="cssTraining.html">css Training</a>
-              <div class="dropdown-divider"></div>
-              <a class="dropdown-item" href="bootstrapExercise.html">Bootstrap Exercise</a>
-            </div>
-          </li>
           <li class="nav-item">
-            <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
+              <a class="nav-link" href="resume.html">Resume</a>
+       </li>
+          <li class="nav-item">
+            <a class="nav-link" href="contact.html">Contact</a>
           </li>
         </ul>
         <form class="form-inline my-2 my-lg-0">
@@ -98,47 +70,47 @@ box-shadow: 10px 50px 10px rgba(50, 0, 0, 0.5);}
         </form>
       </div>
     </nav>
-
-
-
-    <h1 id="pinktext">This will be my future portfolio website</h1>
-    <p class="pinktext" >there will more projects display here really soon!!!</p>
-    <h3 class="pinktext" >Hello</h3>
-    <h6 id="pinktext">My name is Michaela</h6>
-    <a href="www.nike.com" target="_blank">
-        <h5>go to Nike website</h5></a>
-      <a href="mailto:michaelamae8@gmail.com">
-      <p>email me</p>
-    </a>
-    <h1>To do List</h1>
-    <ol type="A">
-        <li>cook</li>
-        <li>buy milk</li>
-        <li>walk the dog</li>
-    </ol>
-    <ul> 
-        <li><mark>cook</mark></li>
-        <li>buy milk</li>
-        <li>walk the dog</li>
-    </ul>
-    <img width="auto" height="200" src="assets/images/download.jpg">
-<h1>Student Bio</h1>
-<h3>Michaela Campbell</h3>
-<img width="auto" height="100" style="border-radius:50%;" src="assets/images/download.jpg">
-<p>I am a graphic designer</p>
-<h4>contact info</h4>
-
-<div id="firstbox">
-<h2>first div box</h2>
+<h1>Welcome!</h1>
+<h4>Check Out Some of My Projects!</h4>
+<div class="container-fluid">
+  <div class="row">
+    <div class="col-sm-4 col-md-4">
+      <div class="card">
+        <img src="assets/images/giraffe2 copy.png" class="card-img-top" alt="Giraffe">
+      </div>
+<div class="card-body">
+<h5 class="card-title">Digital Illustrations</h5>
+<p class="card text">My collection of Digital illustrations using photoshop and Illustrator </p>
+<a href="https://www.michaelacampbell.work/work/digital-illustrations" class="btn btn-primary" data-toggle="model" data-target="#exampleModal">check it out</a>
+</div>
+</div>
+    
+    <div class="col-sm-4 col-md-4">
+      <div class="card">
+        <img src="assets/images/prococo(black).png" class="card-img-top" alt="Pro Coco">
+      </div>
+<div class="card-body">
+<h5 class="card-title">Pro Coco</h5>
+<p class="card text">Logo and packaging for Pro Coco company</p>
+<a href="https://www.michaelacampbell.work/work/pro-coco" class="btn btn-primary">check it out</a>
+</div>
+</div>
+    <div class="col-sm-4 col-md-4">
+      <div class="card">
+        <img src="assets/images/happyhourposter copy.png" class="card-img-top" alt="Happy Hour">
+      </div>
+<div class="card-body">
+<h5 class="card-title">Happy Hour</h5>
+<p class="card text">Posters and illustrations from my series called Happy Hour</p>
+<a href="https://www.michaelacampbell.work/work/happy-hour" class="btn btn-primary">check it out</a>
+</div>
+</div>
+    </div>
+  </div>
+</div>
 </div>
 
-<div id="secondbox">
-    <p>this is my second box</p>
-    <h1 class="shadowtext"></h1>hello</h1>
-</div>
-<div id="thirdbox">
-    <p>this is my third box</p>
-</div>
+    
 </body>
 <!-- boostrap script -->
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
